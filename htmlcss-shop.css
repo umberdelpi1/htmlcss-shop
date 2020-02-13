@@ -1,14 +1,66 @@
-.iphone11 {
-  height: 400px;
-  left: 10px;
+
+
+.container{
+  left: 20px;
+  top:0;
+  width: 48%;
+  padding-bottom: 15px;
+  position: relative;
+}
+#p1 {
+  position: absolute;
+  left: 199px;
+  bottom: 268px;
+  font-style: normal;
+  font-size: 20px;
+  padding: 3px;
+  background: red;
+  color: white;
+  border-bottom: solid gold 2px;
+  border-radius: 30%;
+}
+#p2 {
+  position: absolute;
+  right: 100px;
+  bottom: 268px;
+  font-style: normal;
+  font-size: 20px;
+  padding: 3px;
+  background: green;
+  color: white;
+  border-bottom: solid red 2px;
+  border-radius: 30%;
 }
 
-.iphonepro {
-  height: 400px;
-  left: 10px;
+#p3 {
+  position: absolute;
+  left: 695px;
+  bottom: 267px;
+  font-style: normal;
+  font-size: 20px;
+  padding: 3px;
+  background: red;
+  color: white;
+  border-bottom: solid green 2px;
+  border-radius: 30%;
 }
 
-.iphonepromax {
-  height: 400px;
-  left: 10px;
+
+.iphone1 {
+  height: 300px;
+  margin-left: 2px;
+}
+
+.iphone2 {
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+.iphone3 {
+  height: 300px;
+  margin-left: 2px;
+  position: absolute;
+  top: 0;
+  left: 496px;
 }
