@@ -1,66 +1,48 @@
-
-
-.container{
-  left: 20px;
-  top:0;
-  width: 48%;
-  padding-bottom: 15px;
+/* prodotti up */
+.containerup {
   position: relative;
+  top: 0;
+  left: 0;
 }
-#p1 {
+
+.articolo {
   position: absolute;
-  left: 199px;
-  bottom: 268px;
-  font-style: normal;
-  font-size: 20px;
-  padding: 3px;
+  display: inline-block;
+}
+
+.iphone {
+  width: 300px;
+  height: 400px;
+}
+
+.scontored {
+  top: 0;
+  right: 0;
+  position:absolute;
+  display: inline-block;
   background: red;
   color: white;
-  border-bottom: solid gold 2px;
-  border-radius: 30%;
-}
-#p2 {
-  position: absolute;
-  right: 100px;
-  bottom: 268px;
-  font-style: normal;
-  font-size: 20px;
+  border: solid rgb(246, 137, 137) 1px;
   padding: 3px;
+}
+
+.heartred {
+  position: absolute;
+  color: red;
+  bottom: 4%;
+  right: 51%;
+
+}
+
+.scontogreen {
+  top: 0;
+  right: 0;
+  position:absolute;
+  display: inline-block;
   background: green;
   color: white;
-  border-bottom: solid red 2px;
-  border-radius: 30%;
-}
-
-#p3 {
-  position: absolute;
-  left: 695px;
-  bottom: 267px;
-  font-style: normal;
-  font-size: 20px;
+  border: solid rgb(20, 66, 4) 1px;
   padding: 3px;
-  background: red;
-  color: white;
-  border-bottom: solid green 2px;
-  border-radius: 30%;
 }
 
-
-.iphone1 {
-  height: 300px;
-  margin-left: 2px;
-}
-
-.iphone2 {
-  height: 300px;
-  position: absolute;
-  top: 0;
-  left: 250px;
-}
-.iphone3 {
-  height: 300px;
-  margin-left: 2px;
-  position: absolute;
-  top: 0;
-  left: 496px;
-}
+/* prodotti down */
