@@ -10,6 +10,7 @@
   display: inline-block;
 }
 
+
 .iphone {
   width: 300px;
   height: 400px;
@@ -31,7 +32,11 @@
   color: red;
   bottom: 4%;
   right: 51%;
+  display: none;
+}
 
+.articolo:hover .heartred {
+  display: block;
 }
 
 .scontogreen {
@@ -44,5 +49,3 @@
   border: solid rgb(20, 66, 4) 1px;
   padding: 3px;
 }
-
-/* prodotti down */
