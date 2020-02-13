@@ -1,8 +1,14 @@
-.container {
-  width: 200px;
-  height: 500px;
-  margin: 30px;
-  position: relative;
-  left:10px;
-  background-color: rgb(244, 244, 244);
+.iphone11 {
+  height: 400px;
+  left: 10px;
+}
+
+.iphonepro {
+  height: 400px;
+  left: 10px;
+}
+
+.iphonepromax {
+  height: 400px;
+  left: 10px;
 }
